@@ -3,9 +3,9 @@
 ![linear](https://github.com/rengwuxian/MaterialEditText/blob/master/images/floating_label.png)
 ## 一、动画分析
 > 方法：可以解开动图然后观察
-- 1. 文字一个简单的渐变alpha 0->1。
-- 2. y轴坐标的移动。
-- 3. 唯一的关键就是设置padding，来让顶部腾出位置来绘制文字。
+- 文字一个简单的渐变alpha 0->1。
+- y轴坐标的移动。
+- 唯一的关键就是设置padding，来让顶部腾出位置来绘制文字。
 ## 二、实现思路
 #### 设置一个fraction值，用来同时控制alpha和y轴坐标的渐变。
 1. alpha = 255 * fraction;
