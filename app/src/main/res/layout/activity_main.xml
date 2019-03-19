@@ -7,7 +7,9 @@
     tools:context=".MainActivity">
 
     <com.material.demo.MaterialEditText
+        android:id="@+id/material"
         android:layout_width="match_parent"
+        app:useTopTagLabel="false"
         android:hint="哈哈"
         android:layout_height="wrap_content" />
 

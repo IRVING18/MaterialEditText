@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaterialEditText">
+        <!--是否使用顶部Label功能-->
+        <attr name="useTopTagLabel" format="boolean" />
+    </declare-styleable>
+</resources>
